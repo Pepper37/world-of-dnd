@@ -1,0 +1,206 @@
+@charset "utf-8";
+
+
+html {
+    background: rgb(24, 26, 27);
+    font-family: Verdana, Geneva, sans-serif;
+    color: rgb(236, 238, 240);
+    height: 100%;
+}
+
+
+/* default background */
+body {
+    background-color: rgb(67, 77, 86);
+    border-left: 3px solid rgb(51, 51, 51);
+    border-right: 3px solid rgb(51, 51, 51);
+    min-height: 100%;  
+    margin: 0px auto;
+    min-width: 320px;
+    max-width: 1020px;  
+    width: 100%;
+}
+
+/* header and footer shared by every page */
+header {
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+header img {
+    width: 100%;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+header nav ul li {
+    font-size: 1.1em;
+    line-height: 1.8em; 
+    height: 1.8em;
+    padding: 0px 10px;
+}
+
+header nav ul li a {
+    width: 100%;
+    color: rgb(236, 238, 240);
+    display: block;
+}
+header nav ul li a:hover {
+    color: rgb(207, 207, 207);
+}
+
+footer {
+    margin-top: 40px;
+    border-top: 1px solid rgb(0, 0, 0);
+    background-color: rgb(133, 143, 147);
+}
+
+footer p {
+    margin-left: 0px;
+    display: block;
+    text-align: center;
+    color: color: rgb(236, 238, 240);
+    font-size: 0.8em;
+}
+
+footer a {
+    color: color: rgb(236, 238, 240);
+    font-size: 0.8em;
+}
+
+a {
+    color: rgb(214, 204, 169);
+}
+
+a:hover {
+    color: rgb(138, 123, 66);
+}
+
+h1 {
+    text-align: center;
+    font-family: Palatino;
+    color: rgb(250, 152, 5);
+    text-shadow: 2px 2px black;
+}
+
+h2 {
+    margin-left: 2%;
+    font-family: Palatino;
+    font-size: 1.5em;
+    text-shadow: 2px 2px black;
+}
+
+h3 {
+    margin-left: 4%;
+    font-family: Palantino;
+    font-style: italic;
+}
+
+p {
+    margin-left: 5%;
+}
+
+p.textPara {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-right: 20px;
+}
+
+h1#indexPursue {
+    text-align: left;
+    margin-left: 5%;
+} 
+
+div.linkCenter {
+    text-align: center;
+}
+
+
+
+div#musicText {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: right;
+
+}
+div#music {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: right;
+
+}
+
+/* index styles */
+/*h1 will ahve a text shadow, and needs to be centered*/
+div#navigationBox {
+    display: flex;
+    float: right;
+    flex-direction: column;
+    margin-right: 70px;
+    padding: 20px;
+
+}
+
+
+img#city, img#dragon {
+    margin-right: 30px;
+    margin-left: 30px;
+    width: 70%
+}
+
+table {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th, td {
+    padding: 20px;
+}
+
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+table td img {
+    width: 7em;
+    height: 7em;
+    border-radius: 20px;
+}
+
+dl {
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+dl dt {
+    margin-left: 1em;
+    font-style: italic;
+}
+
+dl dt, dl dd {
+    margin-bottom: 0.5em;
+}
+
+div#map img {
+    width: 400px;
+    height: 400px;
+    margin-right: 50px;
+}
+
+div#settingIntro {
+    display: flex;
+    flex-flow: no-wrap;
+}
+
+.drop {
+    font-family: Palatino;
+    color: rgb(250, 152, 5);
+    text-shadow: 2px 2px black;
+    font-size: 60px;
+}

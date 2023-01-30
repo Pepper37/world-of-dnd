@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en" style="background-image: url(wall.png);">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Welcome to D&D</title>
+    <link rel="shortcut icon" href="media/favicon.ico"/>
+    <link rel="stylesheet" type="text/css" href="stylin.css">
+    <link rel="stylesheet" type="text/css" href="stylinSurvey.css">
+</head>
+
+
+<body>
+    <!-- header shared by every page -->
+    <header>
+        <a href="https://www.asu.edu">
+            <img src="media/headerImg.jpg" alt="return home" id="headerImg"/>
+        </a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Welcome</a></li>
+                <li><a href="how_to_play.html">How To Play</a></li>
+                <li><a href="running_the_game.html">Running the Game</a></li>
+                <li><a href="forgotten_realms.html">The Setting</a></li>
+                <li><a href="history.html">History of the Game</a></li>
+                <li><a href="dice.html">The Dice</a></li>
+                <li><a href="mailing_list.html">Join the Mailing List!</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<h1>Join Our Mailing List!</h1>
+<br>
+<p class="textPara">
+    By signing up for our mailing list, we can send you periodic updates detailing any new changes to DnD 5e. The game is in constant development, and there are new source books, new spells, new classes, and much more coming out all the time. In addition to staying up to date with these changes, the newsletter will also contain random pieces of advice to help you continue to learn the game.
+</p>
+
+<hr>
+
+
+
+    <form action="nowhere.notasite" method="post">
+
+    
+
+        <!-- general info for mailing lists -->
+        <fieldset id="mailing">
+            <legend>Mailing Information (* Required)</legend>
+
+            <div class="form">
+                <label for="name">Name*</label>
+                <input type="text" name="name" id="name" required/>
+            </div>
+
+            <div class="form">
+                <label for="street">Street Address</label>
+                <input type="text" name="street" id="street"/>
+            </div>
+
+            <div class="form">
+                <label for="city">City</label>
+                <input type="text" name="city" id="city" />
+            </div>
+
+            <div class="form">
+                <label for="state">State</label>
+                <input type="text" name="state" id="state" />
+            </div>
+
+            <div class="form">
+                <label for="zip">ZIP</label>
+                <input type="text" name="zip" id="zip" />
+            </div>
+
+            <div class="form">
+                <label for="phone">Phone</label>
+                <input type="tel" name="phone" id="phone" />
+            </div>
+
+            <div class="form">
+                <label for="email">email*</label>
+                <input type="email" name="email" id="email" required/>
+            </div>
+
+
+        </fieldset>
+
+
+        <!-- users experience level with dnd -->
+        <fieldset id="experience">
+            <legend>Your Experience With DnD</legend>
+
+            <div class="form">
+                <label for="ttrpg">Have you ever played a TTRPG before?</label>
+                <fieldset class="ttrpg">
+                    <label for="tYes">Yes</label>
+                    <input type="radio" name="ttrpgYes" id="tYes" value="yes" />
+                    <label for="tNo">No</label>
+                    <input type="radio" name="ttrpgNo" id="tNo" value="no" />
+                </fieldset>
+            </div>
+
+            <div class="form">
+                <label for="crpg">Have you ever played a video game rpg before?</label>
+                <fieldset class="crpg">
+                    <label for="cYes">Yes</label>
+                    <input type="radio" name="ttrpcrpgYes" id="cYes" value="yes" />
+                    <label for="tNo">No</label>
+                    <input type="radio" name="crpgNo" id="cNo" value="no" />
+                </fieldset>
+            </div>
+
+            <div class="form">
+                <label for="exp">
+                    How many years have you been gaming? (tabletop or video games)
+                </label>
+                <input type="number" name="exp" id="exp" value="1" min="0" max="100"/>
+            </div>
+
+            <div class="form">
+                <label for="age">
+                    How old are you?
+                </label>
+                <input type="number" name="age" id="age" value="1" min="0" max="100"/>
+            </div>
+
+            <div class="form">
+                <label for="classes">
+                    What is you favorite type of character to play?
+                </label>
+
+                <select name="classes" id="classes">
+                    <option class1>Choose From Selection</option>
+                    <option class2>Fighter - Strength Based</option>
+                    <option class3>Fighter - Dexterity Based</option>
+                    <option class4>Mage - Scholarly</option>
+                    <option class5>Mage - Chaotic</option>
+                    <option class6>That Wierd Class That Every RPG Has</option>
+                </select>
+            </div>
+        </fieldset>
+
+        <div id="buttons">
+            <input type="submit" value="Submit"/>
+            <input type="reset" value="Reset"/>
+        </div>
+    </form>
+
+    <footer>
+        <p>Robyn Green</p>
+        <p>IFT 301 Section # 96336</p>
+        <div class="linkCenter"><a href="attributions.html">Attributions for Artwork Used</a></div>
+    </footer>
+
+    </body>
