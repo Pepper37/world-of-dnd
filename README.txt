@@ -5,4 +5,4 @@ a variety of HTML elements are presented, as well as several different media typ
 
 There is no backend or database, and no data processing occurs. This was meant to be an exercise in front-end design only.
 
-opening index.html in any modern web browser will bring you to the home page.
+website link: https://pepper37.github.io/world-of-dnd/
